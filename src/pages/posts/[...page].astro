@@ -11,7 +11,7 @@ export async function getStaticPaths({ paginate, rss }) {
   allPosts = allPosts.sort((a, b) => new Date(b.date).valueOf() - new Date(a.date).valueOf());
 
   rss({
-    title: 'Creek',
+    title: 'chrisaddy',
     description: 'A Theme for Astro',
     customData: `<language>en-us</language>`,
     items: allPosts.map(item => ({
@@ -30,7 +30,7 @@ export async function getStaticPaths({ paginate, rss }) {
 const { page } = Astro.props
 let pageTitle = 'Articles';
 let pageDescription = `page ${page.currentPage} of all articles`;
-let seoTitle = 'Articles | Creek';
+let seoTitle = 'Articles | chrisaddy';
 let seoDescription = '';
 ---
 
