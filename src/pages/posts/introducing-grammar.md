@@ -7,7 +7,7 @@ tags: ["python", "machine learning"]
 layout: "../../layouts/BlogPostLayout.astro"
 ---
 
-Every day there is a _shiny new thing_ in the world of machine learning. Or maybe it's every 10 seconds. It can feel overwhelming, but it really is a wonderful problem to have too many options. Whether it's in choosing modeling architectures, frameworks, data pipelining tools, libraries for model interpretability, drift detection, logging, visibility...
+Every day, there is a _shiny new thing_ in the world of machine learning. Or maybe it's every 10 seconds. It can feel overwhelming, but it really is a wonderful problem to have too many options. Whether it's in choosing modeling architectures, frameworks, data pipelining tools, libraries for model interpretability, drift detection, logging, visibility...
 
 These tools of course require some amount of gluing together. Sometimes this can even be elegant, but it’s rarely obvious. For the amount of mathematics involved in the field, when it comes to the tools we build, I think we could stand to think about the ways in which our tools interface. This is not a criticism. These tools are software. Software is built under time and resource constraints to solve specific problems. No one team should have to have in their head how every piece of the vast machine learning ecosystem connects. But these things do have to get glued together at some point.
 
