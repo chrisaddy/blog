@@ -33,7 +33,7 @@ module.exports = {
       7: "7deg",
       8: "8deg",
       9: "9deg",
- Code     10: "10deg",
+      10: "10deg",
       45: "45deg",
       90: "90deg",
       180: "180deg",
