@@ -2,7 +2,7 @@
 title: "Machine Learning Needs a Unix Philosophy"
 description: "The near future of machine learning should be boring."
 date: "2022-07-29"
-hero: "/images/composition-mondrian.jpg"
+hero: "/images/mondrian.jpeg"
 tags: ["python", "machine learning"]
 layout: "../../layouts/BlogPostLayout.astro"
 ---
