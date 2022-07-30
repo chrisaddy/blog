@@ -9,9 +9,9 @@ interface MarkdownFrontmatter {
   date: number;
 }
 
-let title = 'Creek';
-let description = 'A Theme for Astro';
-let seoDescription = 'Creek is a theme for Astro static site generator';
+let title = 'chrisaddy';
+let description = 'from 🧠 import 💩';
+let seoDescription = 'personal blog of chrisaddy';
 
 let allPosts = Astro.fetchContent<MarkdownFrontmatter>('./posts/*.md');
 allPosts = allPosts.sort((a, b) => new Date(b.date).valueOf() - new Date(a.date).valueOf());
